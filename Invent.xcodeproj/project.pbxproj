@@ -16,6 +16,17 @@
 		420FAD862A893FB00061719C /* InventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FAD852A893FB00061719C /* InventTests.swift */; };
 		420FAD902A893FB00061719C /* InventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FAD8F2A893FB00061719C /* InventUITests.swift */; };
 		420FAD922A893FB00061719C /* InventUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FAD912A893FB00061719C /* InventUITestsLaunchTests.swift */; };
+		420FAD9F2A89425B0061719C /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FAD9E2A89425B0061719C /* ItemRow.swift */; };
+		420FADA12A8947290061719C /* AddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FADA02A8947290061719C /* AddItem.swift */; };
+		420FADA32A894EAE0061719C /* DraftItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FADA22A894EAE0061719C /* DraftItem.swift */; };
+		420FADA52A895C120061719C /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FADA42A895C120061719C /* ScannerViewController.swift */; };
+		420FADA72A895C6D0061719C /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FADA62A895C6D0061719C /* ScannerView.swift */; };
+		420FADA92A8961B70061719C /* BulkAddList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FADA82A8961B70061719C /* BulkAddList.swift */; };
+		420FADAB2A8963060061719C /* BulkAddItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FADAA2A8963060061719C /* BulkAddItemRow.swift */; };
+		420FADAD2A8968310061719C /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FADAC2A8968310061719C /* ItemDetail.swift */; };
+		420FADAF2A8985850061719C /* Item+FetchRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FADAE2A8985850061719C /* Item+FetchRequests.swift */; };
+		420FADB12A8A89A90061719C /* FinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FADB02A8A89A90061719C /* FinderView.swift */; };
+		420FADB32A8A89B50061719C /* FinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FADB22A8A89B50061719C /* FinderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		420FAD8B2A893FB00061719C /* InventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		420FAD8F2A893FB00061719C /* InventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventUITests.swift; sourceTree = "<group>"; };
 		420FAD912A893FB00061719C /* InventUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		420FAD9E2A89425B0061719C /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		420FADA02A8947290061719C /* AddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
+		420FADA22A894EAE0061719C /* DraftItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftItem.swift; sourceTree = "<group>"; };
+		420FADA42A895C120061719C /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		420FADA62A895C6D0061719C /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		420FADA82A8961B70061719C /* BulkAddList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkAddList.swift; sourceTree = "<group>"; };
+		420FADAA2A8963060061719C /* BulkAddItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkAddItemRow.swift; sourceTree = "<group>"; };
+		420FADAC2A8968310061719C /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		420FADAE2A8985850061719C /* Item+FetchRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+FetchRequests.swift"; sourceTree = "<group>"; };
+		420FADB02A8A89A90061719C /* FinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderView.swift; sourceTree = "<group>"; };
+		420FADB22A8A89B50061719C /* FinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +128,17 @@
 				420FAD7C2A893FB00061719C /* Info.plist */,
 				420FAD792A893FB00061719C /* Invent.xcdatamodeld */,
 				420FAD742A893FB00061719C /* Preview Content */,
+				420FAD9E2A89425B0061719C /* ItemRow.swift */,
+				420FADA02A8947290061719C /* AddItem.swift */,
+				420FADA22A894EAE0061719C /* DraftItem.swift */,
+				420FADA42A895C120061719C /* ScannerViewController.swift */,
+				420FADA62A895C6D0061719C /* ScannerView.swift */,
+				420FADA82A8961B70061719C /* BulkAddList.swift */,
+				420FADAA2A8963060061719C /* BulkAddItemRow.swift */,
+				420FADAC2A8968310061719C /* ItemDetail.swift */,
+				420FADAE2A8985850061719C /* Item+FetchRequests.swift */,
+				420FADB02A8A89A90061719C /* FinderView.swift */,
+				420FADB22A8A89B50061719C /* FinderViewController.swift */,
 			);
 			path = Invent;
 			sourceTree = "<group>";
@@ -265,10 +298,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420FADA72A895C6D0061719C /* ScannerView.swift in Sources */,
+				420FADAD2A8968310061719C /* ItemDetail.swift in Sources */,
+				420FADAF2A8985850061719C /* Item+FetchRequests.swift in Sources */,
 				420FAD782A893FB00061719C /* Persistence.swift in Sources */,
+				420FADB12A8A89A90061719C /* FinderView.swift in Sources */,
 				420FAD712A893FAF0061719C /* ContentView.swift in Sources */,
+				420FADA92A8961B70061719C /* BulkAddList.swift in Sources */,
+				420FADA12A8947290061719C /* AddItem.swift in Sources */,
+				420FADA32A894EAE0061719C /* DraftItem.swift in Sources */,
+				420FAD9F2A89425B0061719C /* ItemRow.swift in Sources */,
 				420FAD6F2A893FAF0061719C /* InventApp.swift in Sources */,
 				420FAD7B2A893FB00061719C /* Invent.xcdatamodeld in Sources */,
+				420FADA52A895C120061719C /* ScannerViewController.swift in Sources */,
+				420FADB32A8A89B50061719C /* FinderViewController.swift in Sources */,
+				420FADAB2A8963060061719C /* BulkAddItemRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
